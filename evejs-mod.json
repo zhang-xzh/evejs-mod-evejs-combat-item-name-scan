@@ -1,0 +1,37 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "category": "玩法",
+  "changelog": "战斗激烈时按名字查物品会扫描整个物品库，卡顿。修复后更快，结果不变。",
+  "conflicts": [],
+  "delisted": false,
+  "description": "战斗激烈时按名字查物品会扫描整个物品库，卡顿。修复后更快，结果不变。",
+  "displayName": "大规模战斗卡顿修复（物品名查找）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan/releases/download/v1.0.0/evejs-combat-item-name-scan-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "0.12.9"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "evejs-combat-item-name-scan",
+  "publishedAt": "2026-10-16",
+  "readme": [
+    "战斗热路径里按名字查物品会退化成对整个物品目录做模糊扫描，大规模战斗时明显卡顿。补丁改为优先精确命中，跳过模糊扫描，行为不变但快很多。"
+  ],
+  "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-combat-item-name-scan",
+  "requiresRestart": true,
+  "sha256": "ec3e30006043eb8b0985bd13f8d7744791262abafb72873601f62862bcabb016",
+  "sizeBytes": 7301,
+  "tags": [],
+  "version": "1.0.0"
+}
